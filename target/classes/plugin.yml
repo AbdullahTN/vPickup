@@ -3,8 +3,8 @@ version: '1.0.0'
 main: com.example.vpickup.VPickup
 api-version: '1.19'
 description: High-performance Auto-Pickup plugin with Auto-Block and Auto-Smelt.
-author: vPlugins
-website: https://example.com
+author: Asmus1990
+website: https://builtbybit.com/members/asmus1990.276580/
 
 commands:
   ap:

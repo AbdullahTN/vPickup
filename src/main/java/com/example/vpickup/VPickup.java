@@ -8,6 +8,7 @@ import com.example.vpickup.listener.PlayerSessionListener;
 import com.example.vpickup.manager.ActionBarManager;
 import com.example.vpickup.manager.AutoBlockManager;
 import com.example.vpickup.manager.AutoSmeltManager;
+import org.bstats.bukkit.Metrics;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.Objects;
@@ -83,6 +84,11 @@ public final class VPickup extends JavaPlugin {
                         "smelt-enabled", "smelt-disabled"));
 
         getLogger().info("vPickup v" + getPluginMeta().getVersion() + " enabled!");
+
+        // ── bStats ───────────────────────────────────────────────────────────
+        // Plugin ID: bstats.org adresinden projeyi kaydedince alacaksın.
+        // Şimdilik 0 bırakıldı, kendi ID'nle değiştir.
+        new Metrics(this, 30695);
     }
 
     @Override
