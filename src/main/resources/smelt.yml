@@ -1,0 +1,52 @@
+# vPickup — Auto-Smelt Tarifleri
+# Format:  GİRDİ_MATERYALİ: ÇIKTI_MATERYALİ
+# Material isimleri için: https://jd.papermc.io/paper/1.21/org/bukkit/Material.html
+# Geçersiz veya bu sürümde olmayan materyaller sessizce atlanır.
+
+# ── Metal cevherleri — Stone varyantları ──────────────────────────────────────
+IRON_ORE:   IRON_INGOT
+GOLD_ORE:   GOLD_INGOT
+COPPER_ORE: COPPER_INGOT
+
+# ── Metal cevherleri — Deepslate varyantları (1.17+) ─────────────────────────
+DEEPSLATE_IRON_ORE:   IRON_INGOT
+DEEPSLATE_GOLD_ORE:   GOLD_INGOT
+DEEPSLATE_COPPER_ORE: COPPER_INGOT
+
+# ── Gem cevherleri — Stone varyantları (Silk Touch ile düşer) ────────────────
+DIAMOND_ORE:  DIAMOND
+EMERALD_ORE:  EMERALD
+LAPIS_ORE:    LAPIS_LAZULI
+REDSTONE_ORE: REDSTONE
+COAL_ORE:     COAL
+
+# ── Gem cevherleri — Deepslate varyantları (1.17+) ───────────────────────────
+DEEPSLATE_DIAMOND_ORE:  DIAMOND
+DEEPSLATE_EMERALD_ORE:  EMERALD
+DEEPSLATE_LAPIS_ORE:    LAPIS_LAZULI
+DEEPSLATE_REDSTONE_ORE: REDSTONE
+DEEPSLATE_COAL_ORE:     COAL
+
+# ── Nether cevherleri ─────────────────────────────────────────────────────────
+NETHER_GOLD_ORE:   GOLD_NUGGET
+NETHER_QUARTZ_ORE: QUARTZ
+ANCIENT_DEBRIS:    NETHERITE_SCRAP
+
+# ── Ham cevher formları (1.17+) ───────────────────────────────────────────────
+RAW_IRON:   IRON_INGOT
+RAW_GOLD:   GOLD_INGOT
+RAW_COPPER: COPPER_INGOT
+
+# ── Çeşitli ───────────────────────────────────────────────────────────────────
+COBBLESTONE:       STONE
+COBBLED_DEEPSLATE: DEEPSLATE
+CLAY_BALL:         BRICK
+NETHERRACK:        NETHER_BRICK
+SAND:              GLASS
+BASALT:            SMOOTH_BASALT
+STONE:             SMOOTH_STONE
+SANDSTONE:         SMOOTH_SANDSTONE
+RED_SANDSTONE:     SMOOTH_RED_SANDSTONE
+QUARTZ_BLOCK:      SMOOTH_QUARTZ
+CACTUS:            GREEN_DYE
+KELP:              DRIED_KELP

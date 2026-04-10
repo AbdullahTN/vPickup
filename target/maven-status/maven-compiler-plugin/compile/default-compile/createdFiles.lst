@@ -1,0 +1,12 @@
+com\example\vpickup\listener\PlayerSessionListener.class
+com\example\vpickup\VPickup.class
+com\example\vpickup\util\TextUtil.class
+com\example\vpickup\manager\AutoBlockManager$Recipe.class
+com\example\vpickup\data\DatabaseManager.class
+com\example\vpickup\command\ToggleCommand.class
+com\example\vpickup\listener\BlockBreakListener.class
+com\example\vpickup\data\PlayerData.class
+com\example\vpickup\manager\ActionBarManager.class
+com\example\vpickup\manager\AutoSmeltManager.class
+com\example\vpickup\lang\LangManager.class
+com\example\vpickup\manager\AutoBlockManager.class

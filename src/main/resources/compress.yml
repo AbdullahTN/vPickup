@@ -1,0 +1,113 @@
+# vPickup — Auto-Block (Sıkıştırma) Tarifleri
+# Format:
+#   GİRDİ_MATERYALİ:
+#     output: ÇIKTI_MATERYALİ
+#     count:  KAÇ_ADET_GEREKLİ
+#
+# Geçersiz veya bu sürümde olmayan materyaller sessizce atlanır.
+# İstediğiniz tarifi # ile yorum satırına alarak devre dışı bırakabilirsiniz.
+
+# ── Nugget → Ingot (9:1) ──────────────────────────────────────────────────────
+IRON_NUGGET:
+  output: IRON_INGOT
+  count: 9
+GOLD_NUGGET:
+  output: GOLD_INGOT
+  count: 9
+
+# ── Ingot / Gem → Blok (9:1) ──────────────────────────────────────────────────
+IRON_INGOT:
+  output: IRON_BLOCK
+  count: 9
+GOLD_INGOT:
+  output: GOLD_BLOCK
+  count: 9
+DIAMOND:
+  output: DIAMOND_BLOCK
+  count: 9
+EMERALD:
+  output: EMERALD_BLOCK
+  count: 9
+LAPIS_LAZULI:
+  output: LAPIS_BLOCK
+  count: 9
+REDSTONE:
+  output: REDSTONE_BLOCK
+  count: 9
+COAL:
+  output: COAL_BLOCK
+  count: 9
+NETHERITE_INGOT:
+  output: NETHERITE_BLOCK
+  count: 9
+COPPER_INGOT:
+  output: COPPER_BLOCK
+  count: 9
+
+# ── Ham cevher → Ham blok (9:1) (1.17+) ──────────────────────────────────────
+RAW_IRON:
+  output: RAW_IRON_BLOCK
+  count: 9
+RAW_GOLD:
+  output: RAW_GOLD_BLOCK
+  count: 9
+RAW_COPPER:
+  output: RAW_COPPER_BLOCK
+  count: 9
+
+# ── Tarım (9:1) ───────────────────────────────────────────────────────────────
+WHEAT:
+  output: HAY_BLOCK
+  count: 9
+DRIED_KELP:
+  output: DRIED_KELP_BLOCK
+  count: 9
+MELON_SLICE:
+  output: MELON
+  count: 9
+BAMBOO:
+  output: BAMBOO_BLOCK
+  count: 9
+
+# ── Çeşitli (9:1) ─────────────────────────────────────────────────────────────
+BONE_MEAL:
+  output: BONE_BLOCK
+  count: 9
+SLIME_BALL:
+  output: SLIME_BLOCK
+  count: 9
+
+# ── 4:1 Tarifler ──────────────────────────────────────────────────────────────
+AMETHYST_SHARD:
+  output: AMETHYST_BLOCK
+  count: 4
+GLOWSTONE_DUST:
+  output: GLOWSTONE
+  count: 4
+SNOWBALL:
+  output: SNOW_BLOCK
+  count: 4
+QUARTZ:
+  output: QUARTZ_BLOCK
+  count: 4
+CLAY_BALL:
+  output: CLAY
+  count: 4
+PRISMARINE_SHARD:
+  output: PRISMARINE
+  count: 4
+NETHER_BRICK:
+  output: NETHER_BRICKS
+  count: 4
+STRING:
+  output: WHITE_WOOL
+  count: 4
+HONEYCOMB:
+  output: HONEYCOMB_BLOCK
+  count: 4
+
+# ── Netherite Scrap → Ingot (basitleştirilmiş, altın maliyeti yok) ────────────
+# Vanilla'ya sadık kalmak istiyorsanız aşağıdaki satırları yorum yapın:
+NETHERITE_SCRAP:
+  output: NETHERITE_INGOT
+  count: 4

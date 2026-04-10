@@ -1,0 +1,32 @@
+# vPickup Configuration
+
+# Language selection — available: en, tr
+# The matching file in plugins/vPickup/lang/<code>.yml will be used.
+# Edit that file to customise messages without touching this config.
+language: tr
+
+sounds:
+  normal-pickup:
+    sound: ENTITY_ITEM_PICKUP
+    volume: 0.3
+    pitch: 1.2
+  rare-pickup:
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.5
+    pitch: 1.0
+
+# Materials considered "rare" — play the rare-pickup sound when collected.
+rare-materials:
+  - DIAMOND
+  - EMERALD
+  - ANCIENT_DEBRIS
+  - NETHERITE_INGOT
+  - NETHERITE_SCRAP
+  - AMETHYST_SHARD
+
+# Action Bar gradient colours (start → end hex).
+actionbar-gradient-start: "#ffaa00"
+actionbar-gradient-end:   "#ffffff"
+
+# Aggregation window before the action bar is flushed (ticks, 20 = 1 second).
+actionbar-flush-ticks: 20

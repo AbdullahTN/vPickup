@@ -1,0 +1,29 @@
+name: vPickup
+version: '${project.version}'
+main: com.example.vpickup.VPickup
+api-version: '1.19'
+description: High-performance Auto-Pickup plugin with Auto-Block and Auto-Smelt.
+author: vPlugins
+website: https://example.com
+
+commands:
+  ap:
+    description: Toggle Auto-Pickup on/off.
+    usage: /<command>
+    permission: vpickup.use
+  ab:
+    description: Toggle Auto-Block (compress ingots into blocks) on/off.
+    usage: /<command>
+    permission: vpickup.use
+  as:
+    description: Toggle Auto-Smelt (smelt ores into ingots) on/off.
+    usage: /<command>
+    permission: vpickup.use
+
+permissions:
+  vpickup.use:
+    description: Allows use of vPickup commands.
+    default: true
+  vpickup.admin:
+    description: Admin access (reload config, etc.).
+    default: op

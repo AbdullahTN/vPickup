@@ -1,0 +1,20 @@
+# vPickup — Türkçe Dil Dosyası
+# MiniMessage formatlaması tam olarak desteklenmektedir.
+
+# ── Açma/Kapama mesajları ──────────────────────────────────────────────────────
+pickup-enabled:  "<gradient:#00ff87:#60efff>✔ <white>Otomatik Toplama <green>açıldı</green>.</gradient>"
+pickup-disabled: "<gradient:#ff4e50:#f9ca24>✖ <white>Otomatik Toplama <red>kapatıldı</red>.</gradient>"
+
+block-enabled:   "<gradient:#00ff87:#60efff>✔ <white>Otomatik Blok <green>açıldı</green>.</gradient>"
+block-disabled:  "<gradient:#ff4e50:#f9ca24>✖ <white>Otomatik Blok <red>kapatıldı</red>.</gradient>"
+
+smelt-enabled:   "<gradient:#00ff87:#60efff>✔ <white>Otomatik Eritme <green>açıldı</green>.</gradient>"
+smelt-disabled:  "<gradient:#ff4e50:#f9ca24>✖ <white>Otomatik Eritme <red>kapatıldı</red>.</gradient>"
+
+# ── Durum mesajları ────────────────────────────────────────────────────────────
+inventory-full:  "<gradient:#ff4e50:#f9ca24>⚠ <bold>ENVANTER DOLU!</bold></gradient>"
+no-permission:   "<red>Bu komutu kullanmak için yetkiniz yok.</red>"
+
+# ── Durum etiketleri ──────────────────────────────────────────────────────────
+status-on:  "<green>açık</green>"
+status-off: "<red>kapalı</red>"

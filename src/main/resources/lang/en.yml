@@ -1,0 +1,21 @@
+# vPickup — English Language File
+# MiniMessage formatting is fully supported.
+
+# ── Toggle messages ────────────────────────────────────────────────────────────
+pickup-enabled:  "<gradient:#00ff87:#60efff>✔ <white>Auto-Pickup has been <green>enabled</green>.</gradient>"
+pickup-disabled: "<gradient:#ff4e50:#f9ca24>✖ <white>Auto-Pickup has been <red>disabled</red>.</gradient>"
+
+block-enabled:   "<gradient:#00ff87:#60efff>✔ <white>Auto-Block has been <green>enabled</green>.</gradient>"
+block-disabled:  "<gradient:#ff4e50:#f9ca24>✖ <white>Auto-Block has been <red>disabled</red>.</gradient>"
+
+smelt-enabled:   "<gradient:#00ff87:#60efff>✔ <white>Auto-Smelt has been <green>enabled</green>.</gradient>"
+smelt-disabled:  "<gradient:#ff4e50:#f9ca24>✖ <white>Auto-Smelt has been <red>disabled</red>.</gradient>"
+
+# ── Status messages ────────────────────────────────────────────────────────────
+inventory-full:  "<gradient:#ff4e50:#f9ca24>⚠ <bold>INVENTORY FULL!</bold></gradient>"
+no-permission:   "<red>You do not have permission to use this command.</red>"
+
+# ── /ap, /ab, /as status on toggle ────────────────────────────────────────────
+# %status% → "enabled" or "disabled"  |  %feature% → feature name
+status-on:  "<green>enabled</green>"
+status-off: "<red>disabled</red>"
